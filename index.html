@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bday_song</title>
+        <style>
+            h1 {
+                text-align: center;
+            }
+            body {
+              /* background-image:url('https://static6.depositphotos.com/1115174/605/v/950/depositphotos_6059272-stock-illustration-happy-birthday-background.jpg'); */
+              /* background-image:url('https://64.media.tumblr.com/d1751615c9b3c59e64fff91bf9e634da/tumblr_nhfu2xhB8C1u24vvbo1_250.gifv'); */
+              background-image:url('https://25.media.tumblr.com/1b15df336a1dbbba49bbbb21817255db/tumblr_mogmjt6VW31req3dvo1_500.gif');
+              /* background-image:url('https://64.media.tumblr.com/3a23432264a8b17ac862e5972b4bcc41/tumblr_nhfu2xhB8C1u24vvbo3_250.gifv'); */
+              height: 100%;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+            .button {
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                }
+
+                .button1 {background-color: #FF0000;}
+                /* .button2 {background-color: #008CBA;} */
+            </style>
+    </head>
+    <body>
+        <audio autoplay loop=infinite>
+            <!-- <source src="Birthday_song.mp3" type="audio/mp3">
+            <source src="wav_bday.wav" type="audio/wav"> -->
+            <source src="audio1.mp3" type="audio/mp3">
+                <source src="wav1.wav" type="audio/wav"> 
+                    <source src="audio2.ogg" type="audio/ogg">            
+        </audio>
+        <button class="button button1" onclick="btnClicked()">Click Me Jahnavi</button>
+        <script>
+            function btnClicked(){
+                document.location.href = "second.html";
+            }
+        </script>
+    </body>
+</html>
